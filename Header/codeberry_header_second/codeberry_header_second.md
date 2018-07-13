@@ -1,0 +1,1 @@
+Header with using display:table for vertical align. Full viewport image in the header.
