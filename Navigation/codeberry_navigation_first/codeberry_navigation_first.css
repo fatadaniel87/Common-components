@@ -49,3 +49,4 @@ nav {
   font-size: 0;
 }
 
+/* ==== A zsúfoltságot a `width: 7.5rem` szünteti meg. Nélküle a `li` elemek közvetlen egymás mellé csúsznak térköz nélkül. Ha azt kitörlöd, láthatod is. A `font-size: 0` pedig a felesleges térköz megszüntetésére van. A html-ben ha két tag nem közvetlen követi egymást (pl. `</li><li>` szóköz, soremelés nélkül), akkor mindenképp közéjük kerül egy szóköz. Viszont azt sem akarjuk, hogy html az ember számára olvashatatlan legyen, ezért kénytelenek vagyunk a `li`-ket új sorokba rakni. Nézd meg, hogy amikor ki van választva a "Home" és az egeret a "News" fölé viszed, akkor a rózsaszín és fehér doboz közt van egy halvány szürke csík (a nav hátterébõl). Ez a csík az, ahol a szóköz van. És ezt lehet a `font-size: 0`-val eltüntetni, mivel annak a szóköznek a méretét is 0-ra állítja. ==== */
