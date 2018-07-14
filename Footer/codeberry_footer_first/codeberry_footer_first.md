@@ -1,0 +1,1 @@
+Basic footer with "display: table" and "display: table-cell" alignment.
