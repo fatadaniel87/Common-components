@@ -1,0 +1,1 @@
+"Sticky footer" solution with positioning. Don't forget the CSS reset and border-box box-sizing!

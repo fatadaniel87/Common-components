@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: blue;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer {
+  background: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
