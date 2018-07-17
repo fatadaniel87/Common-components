@@ -1,0 +1,1 @@
+"Sticky footer" problem solution with calculation.
